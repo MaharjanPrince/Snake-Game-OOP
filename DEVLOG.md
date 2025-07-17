@@ -55,5 +55,5 @@ This markdown work done to track on the Snake Game project using C++ and OOP.
 
 ```bash
 # Compile from project root
-g++ src/*.cpp -Iinclude -o main
+g++ src/*.cpp -Iinclude -o main(udf)
 ./main(or name of the files created)
