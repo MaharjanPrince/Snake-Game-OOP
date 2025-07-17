@@ -1,6 +1,8 @@
 #include <iostream>
 #include "../include/snake.h"
+#include "../include/food.h"
 
+/** this was to test the game logics 
 int main() {
     // Create a Snake starting this point
     Snake mySnake(5, 5);
@@ -31,5 +33,12 @@ int main() {
         std::cout << "No collision.\n";
     }
 
+    return 0;
+}
+*/
+int main() {
+    Food food(20, 20);
+    Point pos = food.getPosition();
+    std::cout << "Food position: (" << pos.x << ", " << pos.y << ")\n";
     return 0;
 }

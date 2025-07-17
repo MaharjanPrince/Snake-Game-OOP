@@ -1,4 +1,4 @@
-# 🐍 Snake Game - Development Log(only Logic)
+# Snake Game - Development Log(only Logic)
 
 This markdown work done to track on the Snake Game project using C++ and OOP.
 
@@ -51,7 +51,7 @@ This markdown work done to track on the Snake Game project using C++ and OOP.
 
 ---
 
-## 🗂️ Useful Commands
+## Useful Commands
 
 ```bash
 # Compile from project root
