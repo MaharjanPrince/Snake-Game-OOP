@@ -3,26 +3,51 @@
 This markdown work done to track on the Snake Game project using C++ and OOP.
 
 ---
+Snake-Game-OOP/
+├── include/ # Header files (.h)
+│ ├── point.h
+│ ├── snake.h
+│ ├── food.h
+│ └── game.h
+├── src/ # Implementation files (.cpp)
+│ ├── point.cpp
+│ ├── snake.cpp
+│ ├── food.cpp
+│ └── game.cpp
+│ └── main.cpp # Program entry point
+├── README.md
+└── DEVLOG.md # This dev log
+
+## 👤 Developer Roles
+
+| Role | Developer | Responsibility |
+|------|-----------|----------------|
+| Logic & Core Engine | Me | Snake movement, food collision, wall & self collision, test cases |
+| Interface & Control | Darshan | Input handling, rendering game board, game loop integration |
 
 ## Completed Tasks
+
+### 🔹 Core Classes
+- [x] `Point` class for position representation
+- [x] `Snake` class for movement, growth, collision
+- [x] `Food` class for spawning and respawning
+- [x] `Game` class for managing game state
+
+### 🔹 Core Functions
+- [x] `update()` to move snake and check food & collisions
+- [x] `grow()` and `move()` logic
+- [x] `checkSelfCollision()` implementation
+- [x] Wall collision detection
+
+### 🔹 Testing
+- [x] Self-collision test (`testSelfCollision()`)
+- [x] Manual growth and turning tests
+- [x] Output verified via console logs
 
 ### Project Setup
 - [x] Set up folder structure: `src/`, `include/`
 - [x] Initialized Git repository
 - [x] working on just one branch `logic` for minimizing conflicts
-
-
-### Classes Created
-- [x] `Point` class (`Point.h`, `Point.cpp`)
-  - Represents `(x, y)` positions on the board
-- [x] `Snake` class (`Snake.h`, `Snake.cpp`)
-  - Handles movement, growing, direction change, collision detection and other logic will be written here
-- [x] `Food` class (`Food.h`, `Food.cpp`)
-  - Handles random food spawning and position
-
-### Testing
-- [x] Created `main.cpp` for testing Snake and Food logic and Test1 unit
-- [x] Confirmed snake movement, growth, and food spawning through cout function
 
 ---
 
@@ -41,13 +66,13 @@ This markdown work done to track on the Snake Game project using C++ and OOP.
 
 ---
 
-##  Next Steps
+##  Pedning Tasks
 
-- [ ] Add collision detection with food
-- [ ] Add a `Game` class to handle loop, rendering, and input
-- [ ] Replace `main.cpp` with full game logic
+- [ ] Implement `draw()` to render board in terminal
+- [ ] Implement a `processInput()` for keyboard input(WASD/ Arrow keys)
+- [ ] Create `run()` with full game logic
 - [ ] Create `Board` class to manage boundaries
-- [ ] Implement terminal-based drawing or use external library
+- [ ] Add a Game Over and Final Score 
 
 ---
 
