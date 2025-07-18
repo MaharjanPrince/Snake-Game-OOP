@@ -3,20 +3,6 @@
 This markdown work done to track on the Snake Game project using C++ and OOP.
 
 ---
-Snake-Game-OOP/
-├── include/ # Header files (.h)
-│ ├── point.h
-│ ├── snake.h
-│ ├── food.h
-│ └── game.h
-├── src/ # Implementation files (.cpp)
-│ ├── point.cpp
-│ ├── snake.cpp
-│ ├── food.cpp
-│ └── game.cpp
-│ └── main.cpp # Program entry point
-├── README.md
-└── DEVLOG.md # This dev log
 
 ## 👤 Developer Roles
 
